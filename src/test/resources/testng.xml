@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite__">
+    <listeners>
+        <listener class-name="GenerateReport"/>
+    </listeners>
+    <test name="lab7Tests">
+        <parameter name="value" value="1" />
+        <parameter name="isEven" value="false" />
+        <classes>
+            <class name="PlayGroundTests"/>
+            <class name="DeleteTests"/>
+            <class name="GetTests"/>
+            <class name="PostTests"/>
+            <class name="PutTests"/>
+        </classes>
+    </test>
+</suite>
